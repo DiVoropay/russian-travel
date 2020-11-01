@@ -1,0 +1,9 @@
+.section-link {
+  text-decoration: none;
+  color: #fff;
+  transition: opacity 0.4s ease;
+}
+
+.section-link:hover {
+  cursor: url(../../images/section-link/cursor-hand.png);
+}
