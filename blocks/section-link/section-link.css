@@ -6,4 +6,5 @@
 
 .section-link:hover {
   cursor: url(../../images/section-link/cursor-hand.png);
+  opacity: .8;
 }

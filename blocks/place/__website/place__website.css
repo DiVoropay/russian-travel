@@ -2,7 +2,7 @@
   margin: auto auto 0 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 730px) {
   .place__website {
     display: none;
   }

@@ -18,7 +18,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 730px) {
   .cover {
     padding-top: calc((64px / 2) +1);
     padding-top: calc(64px / 2);

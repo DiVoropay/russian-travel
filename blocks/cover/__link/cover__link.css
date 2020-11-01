@@ -21,6 +21,13 @@
   }
 }
 
+@media screen and (max-width: 730px) {
+  .cover__link {
+    width: 730px;
+    height: 456px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .cover__link {
     width: 320px;

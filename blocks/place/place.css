@@ -4,7 +4,7 @@
   display: grid;
   grid-auto-flow: column;
   grid-template-columns: minmax(440px, 460px) minmax(456px, 484px);
-  grid-template-rows: min-content minmax(440px, 460px);
+  grid-template-rows: min-content min-content;
   gap:48px 40px;
   grid-template-areas:
     "place__title place__website"
@@ -18,7 +18,6 @@
 @media screen and (max-width: 1024px) {
   .place {
     grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
-    grid-template-rows: min-content minmax(340px, 440px);
     gap: 48px 32px;
   }
 }
@@ -27,12 +26,11 @@
   .place {
     margin-top: 73px;
     grid-template-columns: minmax(320px, 340px) minmax(288px, 352px);
-    grid-template-rows: min-content minmax(320px, 340px);
     gap: 48px 28px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 730px) {
   .place {
     margin-top: 49px;
     grid-template-columns: 1fr;
