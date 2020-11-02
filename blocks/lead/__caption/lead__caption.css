@@ -6,13 +6,13 @@
   letter-spacing: 0.15em;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .lead__caption {
     margin-left: 24px;
   }
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 425px) {
   .lead__caption {
     margin-left: 16px;
   }

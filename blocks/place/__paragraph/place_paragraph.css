@@ -4,13 +4,13 @@
   line-height: 1.63;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .place__paragraph {
     font-size: 16px;
   }
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 680px) {
   .place__paragraph {
     padding-left: 16px;
     padding-right: 16px;

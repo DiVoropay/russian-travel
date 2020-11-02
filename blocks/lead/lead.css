@@ -13,14 +13,14 @@
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .lead {
     padding-left: 0;
     padding-right: 0;
   }
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 425px) {
   .lead {
     padding-bottom: calc(64px / 2);
   }

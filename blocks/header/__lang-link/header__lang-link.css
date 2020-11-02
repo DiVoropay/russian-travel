@@ -12,7 +12,7 @@
   border-bottom: solid #fff 2px;
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 425px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 1.11;

@@ -11,16 +11,16 @@
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .cover {
-    padding-top: calc((88px / 2) +1);
+    padding-top: calc((88px / 2) + 1);
     padding-top: calc(88px / 2);
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .cover {
-    padding-top: calc((64px / 2) +1);
+    padding-top: calc((64px / 2) + 1);
     padding-top: calc(64px / 2);
   }
 }

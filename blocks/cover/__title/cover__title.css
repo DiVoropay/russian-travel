@@ -8,7 +8,14 @@
   z-index: 1;
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 720px) {
+  .cover__title {
+    max-width: 400px;
+    font-size: 55px;
+  }
+}
+
+@media screen and (max-width: 425px) {
   .cover__title {
     max-width: 288px;
     font-size: 32px;
