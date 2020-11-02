@@ -36,7 +36,6 @@
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, min-content);
     gap: 32px;
-    grid-template-areas: none
-    ;
+    grid-template-areas: none;
   }
 }
