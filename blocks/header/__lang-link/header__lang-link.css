@@ -4,14 +4,6 @@
   line-height: 1.17;
 }
 
-.header__lang-link[id="ru"]:lang(ru) {
-  border-bottom: solid #fff 2px;
-}
-
-.header__lang-link[id="en"]:lang(en) {
-  border-bottom: solid #fff 2px;
-}
-
 @media screen and (max-width: 425px) {
   .header__lang-link {
     font-size: 18px;

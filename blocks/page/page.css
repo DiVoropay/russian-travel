@@ -33,3 +33,9 @@
     max-width: 425px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .page {
+    min-width: 320px;
+  }
+}

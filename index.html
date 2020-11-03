@@ -9,14 +9,18 @@
   <title>Путешествия по России</title>
 </head>
 
-<body>
+<body class="body">
   <div class="page">
     <header class="header">
       <img class="header__logo" src="./images/logo/header__logo.svg" alt="Россия">
-      <div>
-        <a class="header__lang-link section-link" href="./index.html" id="ru">Ru</a>
-        <a class="header__lang-link section-link" href="#" id="en">En</a>
-      </div>
+      <ul class="section-list section-list_display_inline">
+        <li>
+          <a class="header__lang-link section-link header__lang-link_active" href="#">Ru</a>
+        </li>
+        <li>
+          <a class="header__lang-link section-link" href="#">En</a>
+        </li>
+      </ul>
     </header>
     <main>
       <section class="lead">
@@ -45,26 +49,27 @@
           и описали некоторые интересные места, достойные вашего отпуска.
         </p>
         <ul class="intro__list section-list">
-          <li>Часовых поясов 11</li>
-          <li>Объектов природного наследия ЮНЕСКО 12</li>
-          <li>Объектов культурного наследия ЮНЕСКО 16</li>
-          <li>Природных заповедников 105</li>
-          <li>Аэропортов 241</li>
+          <li><span class="section-span">Часовых поясов</span> 11</li>
+          <li><span class="section-span">Объектов природного наследия</span> ЮНЕСКО 12</li>
+          <li><span class="section-span">Объектов культурного наследия</span> ЮНЕСКО 16</li>
+          <li><span class="section-span">Природных заповедников</span> 105</li>
+          <li><span class="section-span">Аэропортов</span> 241</li>
         </ul>
       </section>
       <section class="photo-grid">
-        <img class="photo-grid__item" src="./images/photo-grid/photo-grid__item-1.jpg" alt="">
-        <img class="photo-grid__item" src="./images/photo-grid/photo-grid__item-2.jpg" alt="">
-        <img class="photo-grid__item" src="./images/photo-grid/photo-grid__item-3.jpg" alt="">
-        <img class="photo-grid__item" src="./images/photo-grid/photo-grid__item-4.jpg" alt="">
-        <img class="photo-grid__item" src="./images/photo-grid/photo-grid__item-5.jpg" alt="">
-        <img class="photo-grid__item" src="./images/photo-grid/photo-grid__item-6.jpg" alt="">
-        <img class="photo-grid__item" src="./images/photo-grid/photo-grid__item-7.jpg" alt="">
-        <img class="photo-grid__item" src="./images/photo-grid/photo-grid__item-8.jpg" alt="">
-        <img class="photo-grid__item" src="./images/photo-grid/photo-grid__item-9.jpg" alt="">
-        <img class="photo-grid__item" src="./images/photo-grid/photo-grid__item-10.jpg" alt="">
-        <img class="photo-grid__item" src="./images/photo-grid/photo-grid__item-11.jpg" alt="">
-        <img class="photo-grid__item" src="./images/photo-grid/photo-grid__item-12.jpg" alt="">
+        <img class="photo-grid__item" src="./images/photo-grid/photo-grid__item-1.jpg" alt="Вид из окна поезда">
+        <img class="photo-grid__item" src="./images/photo-grid/photo-grid__item-2.jpg"
+          alt="Снежные вершины гор в облаках">
+        <img class="photo-grid__item" src="./images/photo-grid/photo-grid__item-3.jpg" alt="Стога на поле">
+        <img class="photo-grid__item" src="./images/photo-grid/photo-grid__item-4.jpg" alt="Туманный лес">
+        <img class="photo-grid__item" src="./images/photo-grid/photo-grid__item-5.jpg" alt="Прозрачный лед Байкала">
+        <img class="photo-grid__item" src="./images/photo-grid/photo-grid__item-6.jpg" alt="Баргузинский залив">
+        <img class="photo-grid__item" src="./images/photo-grid/photo-grid__item-7.jpg" alt="Горы Кавказа">
+        <img class="photo-grid__item" src="./images/photo-grid/photo-grid__item-8.jpg" alt="Тетраподы">
+        <img class="photo-grid__item" src="./images/photo-grid/photo-grid__item-9.jpg" alt="Вулкан">
+        <img class="photo-grid__item" src="./images/photo-grid/photo-grid__item-10.jpg" alt="Камчатка">
+        <img class="photo-grid__item" src="./images/photo-grid/photo-grid__item-11.jpg" alt="Склоны Байкала">
+        <img class="photo-grid__item" src="./images/photo-grid/photo-grid__item-12.jpg" alt="Туман">
       </section>
       <section class="places">
         <ul class="section-list">
@@ -239,26 +244,38 @@
     </main>
     <footer class="footer">
       <nav>
-        <a class="footer__link section-link" href="https://yandex.ru/maps" target="_blank"
-          title="Перейти на Яндекс Карты">
-          Карты
-        </a>
-        <a class="footer__link section-link" href="https://yandex.ru/pogoda" target="_blank"
-          title="Перейти на Яндекс Погода">
-          Погода
-        </a>
-        <a class="footer__link section-link" href="https://rasp.yandex.ru" target="_blank"
-          title="Перейти на Яндекс Погода">
-          Расписание
-        </a>
-        <a class="footer__link section-link" href="https://calendar.yandex.ru" target="_blank"
-          title="Перейти на Яндекс Календарь">
-          Календарь
-        </a>
-        <a class="footer__link section-link" href="https://travel.yandex.ru" target="_blank"
-          title="Перейти на Яндекс Путешествия">
-          Путешествия
-        </a>
+        <ul class="footer__list section-list">
+          <li class="footer__link">
+            <a class="section-link" href="https://yandex.ru/maps" target="_blank"
+              title="Перейти на Яндекс Карты">
+              Карты
+            </a>
+          </li>
+          <li class="footer__link">
+            <a class="section-link" href="https://yandex.ru/pogoda" target="_blank"
+              title="Перейти на Яндекс Погода">
+              Погода
+            </a>
+          </li>
+          <li class="footer__link">
+            <a class="section-link" href="https://rasp.yandex.ru" target="_blank"
+              title="Перейти на Яндекс Погода">
+              Расписание
+            </a>
+          </li>
+          <li class="footer__link">
+            <a class="section-link" href="https://calendar.yandex.ru" target="_blank"
+              title="Перейти на Яндекс Календарь">
+              Календарь
+            </a>
+          </li>
+          <li class="footer__link">
+            <a class="section-link" href="https://travel.yandex.ru" target="_blank"
+              title="Перейти на Яндекс Путешествия">
+              Путешествия
+            </a>
+          </li>
+        </ul>
       </nav>
       <p class="footer__copyright">
         &copy; 2020. Дмитрий Воропай
